@@ -1,0 +1,60 @@
+html {
+  font-size: 110.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#poster {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+}
+
+#movieContainer {
+  color: whitesmoke;
+  border: solid;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+  background: linear-gradient(145deg, rgba(0,19,180,0.8104429271708684) 15%,
+   rgba(253,29,29,0.8608630952380952) 79%, rgba(252,176,69,0.8496586134453782) 100%);
+}
+
+#reviewBox {
+  margin-left: 30px;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-1px)
+}
+
+input,
+text {
+  color: black;
+  font-weight: 400;
+}
+
+.story {
+  font-size: 15px;
+}
